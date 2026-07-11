@@ -16,7 +16,7 @@ int BinarySearch(int arr[], int size, int key){
             //go to the left part of the array
             end=mid-1;
         }
-        int mid = start + (end-start)/2;
+        mid = start + (end-start)/2;
     }
     return -1;
 }

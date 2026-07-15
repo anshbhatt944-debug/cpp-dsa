@@ -37,18 +37,9 @@ int LastOcc(int arr[], int size, int key){
     return ans;
 }
 int main(){
-    int arr[]={1,3,3,3,7,9,11};
+    int arr[]={1,3,3,7,9,11};
     int key=3;
-    int first = FirstOcc(arr, 7, key);
-    int last = LastOcc(arr, 7, key);
-
-    if(first == -1){
-    cout << "Element not found";
-    }
-    else{
-        cout << "First occurrence is at " << first << endl;
-        cout << "Last occurrence is at " << last << endl;
-        cout << "Total occurrences are " << last - first + 1;
-    }
+    cout<<"First occurrence is at "<<FirstOcc(arr, 6, key)<<endl;
+    cout<<"Last occurrence is at "<<LastOcc(arr, 6, key);
     return 0;
 }

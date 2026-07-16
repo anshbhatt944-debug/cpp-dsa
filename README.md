@@ -26,7 +26,7 @@ This repository contains my implementations of Data Structures and Algorithms in
 |-------|--------|
 | Arrays | ✅ |
 | Binary Search | ✅ |
-| Sorting | ⏳ |
+| Sorting | ✅ |
 | Strings | ⏳ |
 | Recursion | ⏳ |
 | Linked Lists | ⏳ |

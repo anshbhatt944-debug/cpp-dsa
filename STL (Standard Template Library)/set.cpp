@@ -23,6 +23,10 @@ int main(){
         cout<<i<<endl;
     }
     cout<<endl;
-    
+    set<int>::iterator itr = s.find(5);
+    for(auto it=itr;it!=s.end();it++){
+        cout<<*it<<" ";
+    }
+    cout<<endl;
     return 0;
 }

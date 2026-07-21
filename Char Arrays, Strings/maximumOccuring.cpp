@@ -7,7 +7,7 @@ int getMax(int num[], int n){
     for(int i=0;i<n;i++){
         if(num[i]>max){
             max=num[i];
-            count =i;
+            count=i;
         }
     }
     return count;
@@ -29,6 +29,7 @@ char MaximumOcc(string s){
 }
 int main(){
     string str;
+    cout<<"Enter a line:- ";
     getline(cin, str);
     cout<<MaximumOcc(str);
     return 0;
